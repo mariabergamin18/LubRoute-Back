@@ -1,0 +1,14 @@
+runtime: java17
+instance_class: F1
+entrypoint: java -jar build/libs/lubvel-0.0.1-SNAPSHOT.jar
+env_variables:
+  SPRING_DATASOURCE_URL: jdbc:jdbc:postgresql://localhost:5432/lubvel
+  SPRING_DATASOURCE_USERNAME: postgres
+  SPRING_DATASOURCE_PASSWORD: admin
+
+
+
+#env_variables:
+#  SPRING_DATASOURCE_URL: jdbc:postgresql://google/postgres?cloudSqlInstance=intrepid-pride-424615-s6:southamerica-east1:postgres&socketFactory=com.google.cloud.sql.postgres.SocketFactory&user=postgres&password=d/;VXUY"Tu|K(N"9
+#  SPRING_DATASOURCE_USERNAME: postgres
+#  SPRING_DATASOURCE_PASSWORD: d/;VXUY"Tu|K(N"9
